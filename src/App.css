@@ -1,0 +1,15 @@
+input[type="range"]::after {
+    content: attr(data-value);
+    margin-right: -50px;
+    padding-left: 10px;
+  }
+
+
+
+  .disp{
+    border: 5px solid;
+    border-left-color: red;
+    border-top-color: red;
+    border-right-color: yellow;
+    border-bottom-color: yellow;
+  }
