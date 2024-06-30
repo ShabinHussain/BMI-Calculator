@@ -95,8 +95,21 @@ function App() {
 
  
    return (
-    <div className='d-flex justify-content-center align-items-center' style={{width:'100',height:'100vh'}}>
-      <div className='bg-light p-5 rounded shadow border border-dark' style={{width:'450px'}}>
+   
+    <div className='row bg-secondary' style={{width:'1550px'}}>
+      <div className="col-md-6 bg-secondary">
+        
+        <h1 className='fnt'><span className='text-danger'>B</span>ODY</h1>
+        <h1 className='fnt'><span className='text-danger'>MA</span>SS</h1>
+        <h1 className='fnt'><span className='text-danger'>IND</span>EX</h1>
+        
+
+      </div>
+      <div className="col-md-6  bg-dark">
+        <div className="row rr">
+          <div className="col-md-2"></div>
+          <div className="col-md-6 ms-md-4   mt-md-5 pt-md-5 ps-md-4 ">
+          <div className='bg-light p-5 rounded shadow border border-dark' style={{width:'450px'}}>
         <h1 className='text-dark'>BMI Calculator</h1>
 
         <div className='disp mt-5 flex-column rounded shadow bg-dark d-flex justify-content-center  align-items-center p-2'>
@@ -137,7 +150,17 @@ function App() {
 
 
     </div>
-    </div>
+          </div>
+          <div className="col-md-2"></div>
+        </div>
+       
+
+        
+
+      </div> 
+      </div>
+
+   
 
 
  
